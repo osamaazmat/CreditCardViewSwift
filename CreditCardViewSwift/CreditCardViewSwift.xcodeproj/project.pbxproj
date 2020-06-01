@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		7C1B66E59DA6EC4CB17C53A1 /* Pods_CreditCardViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B493643D0AE91953D144373 /* Pods_CreditCardViewSwift.framework */; };
-		B402C8022485223B00321D13 /* CreditCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B402C7FD2485223B00321D13 /* CreditCardView.xib */; };
-		B402C8032485223B00321D13 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C7FE2485223B00321D13 /* Enums.swift */; };
-		B402C8042485223B00321D13 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C7FF2485223B00321D13 /* Validator.swift */; };
-		B402C8052485223B00321D13 /* SkyFloatingLabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C8002485223B00321D13 /* SkyFloatingLabel+Ext.swift */; };
-		B402C8062485223B00321D13 /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C8012485223B00321D13 /* CreditCardView.swift */; };
+		B402C82C24852E8000321D13 /* CreditCardViewSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C82724852E8000321D13 /* CreditCardViewSwift.swift */; };
+		B402C82D24852E8000321D13 /* CreditCardViewSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = B402C82824852E8000321D13 /* CreditCardViewSwift.xib */; };
+		B402C82E24852E8000321D13 /* SkyFloatingLabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C82924852E8000321D13 /* SkyFloatingLabel+Ext.swift */; };
+		B402C82F24852E8000321D13 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C82A24852E8000321D13 /* Enums.swift */; };
+		B402C83024852E8000321D13 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C82B24852E8000321D13 /* Validator.swift */; };
 		B4CB17B62484C6FC007AC68F /* CreditCardViewSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B4CB17B42484C6FC007AC68F /* CreditCardViewSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7B493643D0AE91953D144373 /* Pods_CreditCardViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditCardViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B402C7FD2485223B00321D13 /* CreditCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditCardView.xib; sourceTree = "<group>"; };
-		B402C7FE2485223B00321D13 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		B402C7FF2485223B00321D13 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
-		B402C8002485223B00321D13 /* SkyFloatingLabel+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SkyFloatingLabel+Ext.swift"; sourceTree = "<group>"; };
-		B402C8012485223B00321D13 /* CreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
+		B402C82724852E8000321D13 /* CreditCardViewSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardViewSwift.swift; sourceTree = "<group>"; };
+		B402C82824852E8000321D13 /* CreditCardViewSwift.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditCardViewSwift.xib; sourceTree = "<group>"; };
+		B402C82924852E8000321D13 /* SkyFloatingLabel+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SkyFloatingLabel+Ext.swift"; sourceTree = "<group>"; };
+		B402C82A24852E8000321D13 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		B402C82B24852E8000321D13 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		B4CB17B12484C6FC007AC68F /* CreditCardViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CreditCardViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4CB17B42484C6FC007AC68F /* CreditCardViewSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditCardViewSwift.h; sourceTree = "<group>"; };
 		B4CB17B52484C6FC007AC68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,18 +56,17 @@
 				FB780878F042B293A202F161 /* Pods-CreditCardViewSwift.debug.xcconfig */,
 				F7B096EBB2761881A3843FA5 /* Pods-CreditCardViewSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		B402C7FC2485223B00321D13 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				B402C7FD2485223B00321D13 /* CreditCardView.xib */,
-				B402C7FE2485223B00321D13 /* Enums.swift */,
-				B402C7FF2485223B00321D13 /* Validator.swift */,
-				B402C8002485223B00321D13 /* SkyFloatingLabel+Ext.swift */,
-				B402C8012485223B00321D13 /* CreditCardView.swift */,
+				B402C82724852E8000321D13 /* CreditCardViewSwift.swift */,
+				B402C82824852E8000321D13 /* CreditCardViewSwift.xib */,
+				B402C82A24852E8000321D13 /* Enums.swift */,
+				B402C82924852E8000321D13 /* SkyFloatingLabel+Ext.swift */,
+				B402C82B24852E8000321D13 /* Validator.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -144,6 +143,7 @@
 				TargetAttributes = {
 					B4CB17B02484C6FC007AC68F = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -170,7 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B402C8022485223B00321D13 /* CreditCardView.xib in Resources */,
+				B402C82D24852E8000321D13 /* CreditCardViewSwift.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,10 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B402C8042485223B00321D13 /* Validator.swift in Sources */,
-				B402C8032485223B00321D13 /* Enums.swift in Sources */,
-				B402C8052485223B00321D13 /* SkyFloatingLabel+Ext.swift in Sources */,
-				B402C8062485223B00321D13 /* CreditCardView.swift in Sources */,
+				B402C83024852E8000321D13 /* Validator.swift in Sources */,
+				B402C82E24852E8000321D13 /* SkyFloatingLabel+Ext.swift in Sources */,
+				B402C82F24852E8000321D13 /* Enums.swift in Sources */,
+				B402C82C24852E8000321D13 /* CreditCardViewSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FB780878F042B293A202F161 /* Pods-CreditCardViewSwift.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9B7U6UY7ED;
@@ -356,6 +357,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.osama.CreditCardViewSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7B096EBB2761881A3843FA5 /* Pods-CreditCardViewSwift.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9B7U6UY7ED;

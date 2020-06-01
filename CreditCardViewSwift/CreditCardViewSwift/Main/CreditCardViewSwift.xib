@@ -23,7 +23,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LBq-Iq-Byc">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <subviews>
-                        <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="89E-27-jAN" customClass="SkyFloatingLabelTextField" customModule="CreditCardViewSwift" customModuleProvider="target">
+                        <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="89E-27-jAN" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
                             <rect key="frame" x="8" y="8" width="398" height="50"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
@@ -41,7 +41,7 @@
                                 <outlet property="delegate" destination="-1" id="Jqq-TO-Qwi"/>
                             </connections>
                         </view>
-                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7dy-Bb-uz2" customClass="SkyFloatingLabelTextField" customModule="CreditCardViewSwift" customModuleProvider="target">
+                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7dy-Bb-uz2" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
                             <rect key="frame" x="8" y="66" width="398" height="50"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
@@ -59,7 +59,7 @@
                                 <outlet property="delegate" destination="-1" id="stm-Wz-etS"/>
                             </connections>
                         </view>
-                        <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZHA-Aq-XY6" customClass="SkyFloatingLabelTextField" customModule="CreditCardViewSwift" customModuleProvider="target">
+                        <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZHA-Aq-XY6" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
                             <rect key="frame" x="8" y="124" width="183" height="50"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
@@ -77,7 +77,7 @@
                                 <outlet property="delegate" destination="-1" id="fhS-ml-hRj"/>
                             </connections>
                         </view>
-                        <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w24-CK-h2I" customClass="SkyFloatingLabelTextField" customModule="CreditCardViewSwift" customModuleProvider="target">
+                        <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w24-CK-h2I" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
                             <rect key="frame" x="223" y="124" width="183" height="50"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>

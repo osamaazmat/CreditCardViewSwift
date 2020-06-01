@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B402C814248525AF00321D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C813248525AF00321D13 /* AppDelegate.swift */; };
-		B402C816248525AF00321D13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C815248525AF00321D13 /* SceneDelegate.swift */; };
-		B402C818248525AF00321D13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C817248525AF00321D13 /* ViewController.swift */; };
-		B402C81B248525AF00321D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B402C819248525AF00321D13 /* Main.storyboard */; };
-		B402C81D248525B200321D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B402C81C248525B200321D13 /* Assets.xcassets */; };
-		B402C820248525B200321D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B402C81E248525B200321D13 /* LaunchScreen.storyboard */; };
+		B402C83E24852F0000321D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C83D24852F0000321D13 /* AppDelegate.swift */; };
+		B402C84024852F0000321D13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C83F24852F0000321D13 /* SceneDelegate.swift */; };
+		B402C84224852F0000321D13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C84124852F0000321D13 /* ViewController.swift */; };
+		B402C84524852F0000321D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B402C84324852F0000321D13 /* Main.storyboard */; };
+		B402C84724852F0200321D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B402C84624852F0200321D13 /* Assets.xcassets */; };
+		B402C84A24852F0200321D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B402C84824852F0200321D13 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B402C810248525AF00321D13 /* CreditCardViewSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardViewSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B402C813248525AF00321D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B402C815248525AF00321D13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B402C817248525AF00321D13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B402C81A248525AF00321D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B402C81C248525B200321D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B402C81F248525B200321D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B402C821248525B200321D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B402C83A24852F0000321D13 /* CreditCardViewSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardViewSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B402C83D24852F0000321D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B402C83F24852F0000321D13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B402C84124852F0000321D13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B402C84424852F0000321D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B402C84624852F0200321D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B402C84924852F0200321D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B402C84B24852F0200321D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B402C80D248525AF00321D13 /* Frameworks */ = {
+		B402C83724852F0000321D13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B402C807248525AF00321D13 = {
+		B402C83124852F0000321D13 = {
 			isa = PBXGroup;
 			children = (
-				B402C812248525AF00321D13 /* CreditCardViewSwiftExample */,
-				B402C811248525AF00321D13 /* Products */,
+				B402C83C24852F0000321D13 /* CreditCardViewSwiftExample */,
+				B402C83B24852F0000321D13 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B402C811248525AF00321D13 /* Products */ = {
+		B402C83B24852F0000321D13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B402C810248525AF00321D13 /* CreditCardViewSwiftExample.app */,
+				B402C83A24852F0000321D13 /* CreditCardViewSwiftExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B402C812248525AF00321D13 /* CreditCardViewSwiftExample */ = {
+		B402C83C24852F0000321D13 /* CreditCardViewSwiftExample */ = {
 			isa = PBXGroup;
 			children = (
-				B402C813248525AF00321D13 /* AppDelegate.swift */,
-				B402C815248525AF00321D13 /* SceneDelegate.swift */,
-				B402C817248525AF00321D13 /* ViewController.swift */,
-				B402C819248525AF00321D13 /* Main.storyboard */,
-				B402C81C248525B200321D13 /* Assets.xcassets */,
-				B402C81E248525B200321D13 /* LaunchScreen.storyboard */,
-				B402C821248525B200321D13 /* Info.plist */,
+				B402C83D24852F0000321D13 /* AppDelegate.swift */,
+				B402C83F24852F0000321D13 /* SceneDelegate.swift */,
+				B402C84124852F0000321D13 /* ViewController.swift */,
+				B402C84324852F0000321D13 /* Main.storyboard */,
+				B402C84624852F0200321D13 /* Assets.xcassets */,
+				B402C84824852F0200321D13 /* LaunchScreen.storyboard */,
+				B402C84B24852F0200321D13 /* Info.plist */,
 			);
 			path = CreditCardViewSwiftExample;
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B402C80F248525AF00321D13 /* CreditCardViewSwiftExample */ = {
+		B402C83924852F0000321D13 /* CreditCardViewSwiftExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B402C824248525B200321D13 /* Build configuration list for PBXNativeTarget "CreditCardViewSwiftExample" */;
+			buildConfigurationList = B402C84E24852F0200321D13 /* Build configuration list for PBXNativeTarget "CreditCardViewSwiftExample" */;
 			buildPhases = (
-				B402C80C248525AF00321D13 /* Sources */,
-				B402C80D248525AF00321D13 /* Frameworks */,
-				B402C80E248525AF00321D13 /* Resources */,
+				B402C83624852F0000321D13 /* Sources */,
+				B402C83724852F0000321D13 /* Frameworks */,
+				B402C83824852F0000321D13 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = CreditCardViewSwiftExample;
 			productName = CreditCardViewSwiftExample;
-			productReference = B402C810248525AF00321D13 /* CreditCardViewSwiftExample.app */;
+			productReference = B402C83A24852F0000321D13 /* CreditCardViewSwiftExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B402C808248525AF00321D13 /* Project object */ = {
+		B402C83224852F0000321D13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Osama Azmat Khan";
 				TargetAttributes = {
-					B402C80F248525AF00321D13 = {
+					B402C83924852F0000321D13 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
 			};
-			buildConfigurationList = B402C80B248525AF00321D13 /* Build configuration list for PBXProject "CreditCardViewSwiftExample" */;
+			buildConfigurationList = B402C83524852F0000321D13 /* Build configuration list for PBXProject "CreditCardViewSwiftExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = B402C807248525AF00321D13;
-			productRefGroup = B402C811248525AF00321D13 /* Products */;
+			mainGroup = B402C83124852F0000321D13;
+			productRefGroup = B402C83B24852F0000321D13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B402C80F248525AF00321D13 /* CreditCardViewSwiftExample */,
+				B402C83924852F0000321D13 /* CreditCardViewSwiftExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B402C80E248525AF00321D13 /* Resources */ = {
+		B402C83824852F0000321D13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B402C820248525B200321D13 /* LaunchScreen.storyboard in Resources */,
-				B402C81D248525B200321D13 /* Assets.xcassets in Resources */,
-				B402C81B248525AF00321D13 /* Main.storyboard in Resources */,
+				B402C84A24852F0200321D13 /* LaunchScreen.storyboard in Resources */,
+				B402C84724852F0200321D13 /* Assets.xcassets in Resources */,
+				B402C84524852F0000321D13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B402C80C248525AF00321D13 /* Sources */ = {
+		B402C83624852F0000321D13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B402C818248525AF00321D13 /* ViewController.swift in Sources */,
-				B402C814248525AF00321D13 /* AppDelegate.swift in Sources */,
-				B402C816248525AF00321D13 /* SceneDelegate.swift in Sources */,
+				B402C84224852F0000321D13 /* ViewController.swift in Sources */,
+				B402C83E24852F0000321D13 /* AppDelegate.swift in Sources */,
+				B402C84024852F0000321D13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B402C819248525AF00321D13 /* Main.storyboard */ = {
+		B402C84324852F0000321D13 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B402C81A248525AF00321D13 /* Base */,
+				B402C84424852F0000321D13 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B402C81E248525B200321D13 /* LaunchScreen.storyboard */ = {
+		B402C84824852F0200321D13 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B402C81F248525B200321D13 /* Base */,
+				B402C84924852F0200321D13 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B402C822248525B200321D13 /* Debug */ = {
+		B402C84C24852F0200321D13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		B402C823248525B200321D13 /* Release */ = {
+		B402C84D24852F0200321D13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		B402C825248525B200321D13 /* Debug */ = {
+		B402C84F24852F0200321D13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -298,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		B402C826248525B200321D13 /* Release */ = {
+		B402C85024852F0200321D13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B402C80B248525AF00321D13 /* Build configuration list for PBXProject "CreditCardViewSwiftExample" */ = {
+		B402C83524852F0000321D13 /* Build configuration list for PBXProject "CreditCardViewSwiftExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B402C822248525B200321D13 /* Debug */,
-				B402C823248525B200321D13 /* Release */,
+				B402C84C24852F0200321D13 /* Debug */,
+				B402C84D24852F0200321D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B402C824248525B200321D13 /* Build configuration list for PBXNativeTarget "CreditCardViewSwiftExample" */ = {
+		B402C84E24852F0200321D13 /* Build configuration list for PBXNativeTarget "CreditCardViewSwiftExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B402C825248525B200321D13 /* Debug */,
-				B402C826248525B200321D13 /* Release */,
+				B402C84F24852F0200321D13 /* Debug */,
+				B402C85024852F0200321D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B402C808248525AF00321D13 /* Project object */;
+	rootObject = B402C83224852F0000321D13 /* Project object */;
 }
