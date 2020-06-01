@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreditCardViewSwift" customModule="CreditCardViewSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="cardExpirationTextField" destination="ZHA-Aq-XY6" id="Gcg-Fx-xjW"/>
+                <outlet property="cardNumberTextField" destination="7dy-Bb-uz2" id="zwp-DW-6uG"/>
+                <outlet property="cvvTextField" destination="w24-CK-h2I" id="4ek-Gg-R5Z"/>
+                <outlet property="nameOnCardTextField" destination="89E-27-jAN" id="mmV-lR-chg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LBq-Iq-Byc">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="89E-27-jAN" customClass="SkyFloatingLabelTextField" customModule="CreditCardViewSwift" customModuleProvider="target">
+                            <rect key="frame" x="8" y="8" width="398" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="uDu-fY-enM"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Name on Card"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Name on Card"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="Name on Card"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                    <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="Jqq-TO-Qwi"/>
+                            </connections>
+                        </view>
+                        <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7dy-Bb-uz2" customClass="SkyFloatingLabelTextField" customModule="CreditCardViewSwift" customModuleProvider="target">
+                            <rect key="frame" x="8" y="66" width="398" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="FnA-8l-eKj"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Card Number"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Card Number"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="Card Number"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                    <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="stm-Wz-etS"/>
+                            </connections>
+                        </view>
+                        <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZHA-Aq-XY6" customClass="SkyFloatingLabelTextField" customModule="CreditCardViewSwift" customModuleProvider="target">
+                            <rect key="frame" x="8" y="124" width="183" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="754-2c-Yyg"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Card Expiration"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Card Expiration"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="Card Expiration"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                    <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="fhS-ml-hRj"/>
+                            </connections>
+                        </view>
+                        <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w24-CK-h2I" customClass="SkyFloatingLabelTextField" customModule="CreditCardViewSwift" customModuleProvider="target">
+                            <rect key="frame" x="223" y="124" width="183" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Lwo-0s-FgN"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="CVV"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="CVV"/>
+                                <userDefinedRuntimeAttribute type="string" keyPath="title" value="CVV"/>
+                                <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                    <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="UXx-KP-fSv"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="ZHA-Aq-XY6" firstAttribute="top" secondItem="7dy-Bb-uz2" secondAttribute="bottom" constant="8" id="0ba-Tu-lD5"/>
+                        <constraint firstItem="89E-27-jAN" firstAttribute="top" secondItem="LBq-Iq-Byc" secondAttribute="top" constant="8" id="6fv-TR-G9g"/>
+                        <constraint firstItem="ZHA-Aq-XY6" firstAttribute="leading" secondItem="LBq-Iq-Byc" secondAttribute="leading" constant="8" id="EWe-ZW-P4n"/>
+                        <constraint firstItem="w24-CK-h2I" firstAttribute="width" secondItem="ZHA-Aq-XY6" secondAttribute="width" id="IHb-2y-tMK"/>
+                        <constraint firstItem="7dy-Bb-uz2" firstAttribute="top" secondItem="89E-27-jAN" secondAttribute="bottom" constant="8" id="J64-Tx-OsQ"/>
+                        <constraint firstAttribute="trailing" secondItem="89E-27-jAN" secondAttribute="trailing" constant="8" id="T30-0E-pDk"/>
+                        <constraint firstAttribute="trailing" secondItem="7dy-Bb-uz2" secondAttribute="trailing" constant="8" id="dNQ-m0-ToK"/>
+                        <constraint firstItem="w24-CK-h2I" firstAttribute="top" secondItem="7dy-Bb-uz2" secondAttribute="bottom" constant="8" id="f1g-8U-vLI"/>
+                        <constraint firstItem="7dy-Bb-uz2" firstAttribute="leading" secondItem="LBq-Iq-Byc" secondAttribute="leading" constant="8" id="fgg-0b-ODp"/>
+                        <constraint firstItem="89E-27-jAN" firstAttribute="leading" secondItem="LBq-Iq-Byc" secondAttribute="leading" constant="8" id="kqu-PI-8wq"/>
+                        <constraint firstAttribute="trailing" secondItem="w24-CK-h2I" secondAttribute="trailing" constant="8" id="p7w-LB-P12"/>
+                        <constraint firstItem="ZHA-Aq-XY6" firstAttribute="width" secondItem="7dy-Bb-uz2" secondAttribute="width" multiplier="1/2" constant="-16" id="ybD-NQ-HJQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="LBq-Iq-Byc" secondAttribute="bottom" id="E2C-Kq-9ks"/>
+                <constraint firstItem="LBq-Iq-Byc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="NCN-qc-qjW"/>
+                <constraint firstItem="LBq-Iq-Byc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Xho-XI-2c5"/>
+                <constraint firstItem="LBq-Iq-Byc" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="nya-qx-esb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="131.8840579710145" y="119.86607142857142"/>
+        </view>
+    </objects>
+</document>
