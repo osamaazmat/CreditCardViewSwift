@@ -7,14 +7,22 @@
 //
 
 import UIKit
+import CreditCardViewSwift
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var creditCardView: CreditCardViewSwift!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        creditCardView.delegate = self
     }
 
+}
 
+extension ViewController: CreditCardViewSwiftDelegate {
+    func cardDataValidated(name: String, cardNumber: String, cardExpiry: String, cvvNumber: String) {
+        print("Card Name: \(name), Card Number: \(cardNumber), Card Expiry: \(cardExpiry), Card CVV Code: \(cvvNumber)")
+    }
 }
 

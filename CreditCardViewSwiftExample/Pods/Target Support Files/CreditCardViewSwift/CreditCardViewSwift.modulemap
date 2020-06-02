@@ -1,0 +1,6 @@
+framework module CreditCardViewSwift {
+  umbrella header "CreditCardViewSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

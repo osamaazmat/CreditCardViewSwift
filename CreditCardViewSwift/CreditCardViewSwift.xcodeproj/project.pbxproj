@@ -7,121 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C1B66E59DA6EC4CB17C53A1 /* Pods_CreditCardViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B493643D0AE91953D144373 /* Pods_CreditCardViewSwift.framework */; };
-		B402C82C24852E8000321D13 /* CreditCardViewSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C82724852E8000321D13 /* CreditCardViewSwift.swift */; };
-		B402C82D24852E8000321D13 /* CreditCardViewSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = B402C82824852E8000321D13 /* CreditCardViewSwift.xib */; };
-		B402C82E24852E8000321D13 /* SkyFloatingLabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C82924852E8000321D13 /* SkyFloatingLabel+Ext.swift */; };
-		B402C82F24852E8000321D13 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C82A24852E8000321D13 /* Enums.swift */; };
-		B402C83024852E8000321D13 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C82B24852E8000321D13 /* Validator.swift */; };
-		B4CB17B62484C6FC007AC68F /* CreditCardViewSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B4CB17B42484C6FC007AC68F /* CreditCardViewSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE19FAF144186CB59C1F6611 /* Pods_CreditCardViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8352DA407159681814F83E03 /* Pods_CreditCardViewSwift.framework */; };
+		B402C8862486239900321D13 /* CreditCardViewSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B402C8842486239900321D13 /* CreditCardViewSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B402C88D248623AD00321D13 /* CreditCardViewSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C88C248623AD00321D13 /* CreditCardViewSwift.swift */; };
+		B402C890248623D600321D13 /* CreditCardViewSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = B402C88F248623D600321D13 /* CreditCardViewSwift.xib */; };
+		B402C8942486289800321D13 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C8912486289800321D13 /* Validator.swift */; };
+		B402C8952486289800321D13 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C8922486289800321D13 /* Enums.swift */; };
+		B402C8962486289800321D13 /* SkyFloatingLabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C8932486289800321D13 /* SkyFloatingLabel+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B493643D0AE91953D144373 /* Pods_CreditCardViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditCardViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B402C82724852E8000321D13 /* CreditCardViewSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardViewSwift.swift; sourceTree = "<group>"; };
-		B402C82824852E8000321D13 /* CreditCardViewSwift.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditCardViewSwift.xib; sourceTree = "<group>"; };
-		B402C82924852E8000321D13 /* SkyFloatingLabel+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SkyFloatingLabel+Ext.swift"; sourceTree = "<group>"; };
-		B402C82A24852E8000321D13 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		B402C82B24852E8000321D13 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
-		B4CB17B12484C6FC007AC68F /* CreditCardViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CreditCardViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4CB17B42484C6FC007AC68F /* CreditCardViewSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditCardViewSwift.h; sourceTree = "<group>"; };
-		B4CB17B52484C6FC007AC68F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7B096EBB2761881A3843FA5 /* Pods-CreditCardViewSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCardViewSwift.release.xcconfig"; path = "Target Support Files/Pods-CreditCardViewSwift/Pods-CreditCardViewSwift.release.xcconfig"; sourceTree = "<group>"; };
-		FB780878F042B293A202F161 /* Pods-CreditCardViewSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCardViewSwift.debug.xcconfig"; path = "Target Support Files/Pods-CreditCardViewSwift/Pods-CreditCardViewSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		7497A69790E584CB21EBC636 /* Pods-CreditCardViewSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCardViewSwift.release.xcconfig"; path = "Target Support Files/Pods-CreditCardViewSwift/Pods-CreditCardViewSwift.release.xcconfig"; sourceTree = "<group>"; };
+		8352DA407159681814F83E03 /* Pods_CreditCardViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditCardViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B402C8812486239900321D13 /* CreditCardViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CreditCardViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B402C8842486239900321D13 /* CreditCardViewSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditCardViewSwift.h; sourceTree = "<group>"; };
+		B402C8852486239900321D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B402C88C248623AD00321D13 /* CreditCardViewSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewSwift.swift; sourceTree = "<group>"; };
+		B402C88F248623D600321D13 /* CreditCardViewSwift.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreditCardViewSwift.xib; sourceTree = "<group>"; };
+		B402C8912486289800321D13 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		B402C8922486289800321D13 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		B402C8932486289800321D13 /* SkyFloatingLabel+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SkyFloatingLabel+Ext.swift"; sourceTree = "<group>"; };
+		ECD55A68B6623E7E20ABB459 /* Pods-CreditCardViewSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCardViewSwift.debug.xcconfig"; path = "Target Support Files/Pods-CreditCardViewSwift/Pods-CreditCardViewSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B4CB17AE2484C6FC007AC68F /* Frameworks */ = {
+		B402C87E2486239900321D13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C1B66E59DA6EC4CB17C53A1 /* Pods_CreditCardViewSwift.framework in Frameworks */,
+				AE19FAF144186CB59C1F6611 /* Pods_CreditCardViewSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6D0F27D02D7E0FF9850AF268 /* Frameworks */ = {
+		7F752CAE4BA1150688200C37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7B493643D0AE91953D144373 /* Pods_CreditCardViewSwift.framework */,
+				8352DA407159681814F83E03 /* Pods_CreditCardViewSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		71F3465360202B26C2D844F6 /* Pods */ = {
+		B402C8772486239900321D13 = {
 			isa = PBXGroup;
 			children = (
-				FB780878F042B293A202F161 /* Pods-CreditCardViewSwift.debug.xcconfig */,
-				F7B096EBB2761881A3843FA5 /* Pods-CreditCardViewSwift.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		B402C7FC2485223B00321D13 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				B402C82724852E8000321D13 /* CreditCardViewSwift.swift */,
-				B402C82824852E8000321D13 /* CreditCardViewSwift.xib */,
-				B402C82A24852E8000321D13 /* Enums.swift */,
-				B402C82924852E8000321D13 /* SkyFloatingLabel+Ext.swift */,
-				B402C82B24852E8000321D13 /* Validator.swift */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		B4CB17A72484C6FC007AC68F = {
-			isa = PBXGroup;
-			children = (
-				B4CB17B32484C6FC007AC68F /* CreditCardViewSwift */,
-				B4CB17B22484C6FC007AC68F /* Products */,
-				71F3465360202B26C2D844F6 /* Pods */,
-				6D0F27D02D7E0FF9850AF268 /* Frameworks */,
+				B402C8832486239900321D13 /* CreditCardViewSwift */,
+				B402C8822486239900321D13 /* Products */,
+				B95EDEB17F65A9A8F99C2B8C /* Pods */,
+				7F752CAE4BA1150688200C37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		B4CB17B22484C6FC007AC68F /* Products */ = {
+		B402C8822486239900321D13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B4CB17B12484C6FC007AC68F /* CreditCardViewSwift.framework */,
+				B402C8812486239900321D13 /* CreditCardViewSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B4CB17B32484C6FC007AC68F /* CreditCardViewSwift */ = {
+		B402C8832486239900321D13 /* CreditCardViewSwift */ = {
 			isa = PBXGroup;
 			children = (
-				B402C7FC2485223B00321D13 /* Main */,
-				B4CB17B42484C6FC007AC68F /* CreditCardViewSwift.h */,
-				B4CB17B52484C6FC007AC68F /* Info.plist */,
+				B402C8842486239900321D13 /* CreditCardViewSwift.h */,
+				B402C8852486239900321D13 /* Info.plist */,
+				B402C88E248623BB00321D13 /* Main */,
 			);
 			path = CreditCardViewSwift;
+			sourceTree = "<group>";
+		};
+		B402C88E248623BB00321D13 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B402C8922486289800321D13 /* Enums.swift */,
+				B402C8932486289800321D13 /* SkyFloatingLabel+Ext.swift */,
+				B402C8912486289800321D13 /* Validator.swift */,
+				B402C88C248623AD00321D13 /* CreditCardViewSwift.swift */,
+				B402C88F248623D600321D13 /* CreditCardViewSwift.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B95EDEB17F65A9A8F99C2B8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECD55A68B6623E7E20ABB459 /* Pods-CreditCardViewSwift.debug.xcconfig */,
+				7497A69790E584CB21EBC636 /* Pods-CreditCardViewSwift.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B4CB17AC2484C6FC007AC68F /* Headers */ = {
+		B402C87C2486239900321D13 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4CB17B62484C6FC007AC68F /* CreditCardViewSwift.h in Headers */,
+				B402C8862486239900321D13 /* CreditCardViewSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B4CB17B02484C6FC007AC68F /* CreditCardViewSwift */ = {
+		B402C8802486239900321D13 /* CreditCardViewSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4CB17B92484C6FC007AC68F /* Build configuration list for PBXNativeTarget "CreditCardViewSwift" */;
+			buildConfigurationList = B402C8892486239900321D13 /* Build configuration list for PBXNativeTarget "CreditCardViewSwift" */;
 			buildPhases = (
-				BF06DFA7CF7019F2C3C41BFD /* [CP] Check Pods Manifest.lock */,
-				B4CB17AC2484C6FC007AC68F /* Headers */,
-				B4CB17AD2484C6FC007AC68F /* Sources */,
-				B4CB17AE2484C6FC007AC68F /* Frameworks */,
-				B4CB17AF2484C6FC007AC68F /* Resources */,
+				40EC777393BDBB21DABF6EC7 /* [CP] Check Pods Manifest.lock */,
+				B402C87C2486239900321D13 /* Headers */,
+				B402C87D2486239900321D13 /* Sources */,
+				B402C87E2486239900321D13 /* Frameworks */,
+				B402C87F2486239900321D13 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,25 +130,25 @@
 			);
 			name = CreditCardViewSwift;
 			productName = CreditCardViewSwift;
-			productReference = B4CB17B12484C6FC007AC68F /* CreditCardViewSwift.framework */;
+			productReference = B402C8812486239900321D13 /* CreditCardViewSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B4CB17A82484C6FC007AC68F /* Project object */ = {
+		B402C8782486239900321D13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Osama Azmat Khan";
 				TargetAttributes = {
-					B4CB17B02484C6FC007AC68F = {
+					B402C8802486239900321D13 = {
 						CreatedOnToolsVersion = 11.4;
 						LastSwiftMigration = 1140;
 					};
 				};
 			};
-			buildConfigurationList = B4CB17AB2484C6FC007AC68F /* Build configuration list for PBXProject "CreditCardViewSwift" */;
+			buildConfigurationList = B402C87B2486239900321D13 /* Build configuration list for PBXProject "CreditCardViewSwift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,29 +156,29 @@
 				en,
 				Base,
 			);
-			mainGroup = B4CB17A72484C6FC007AC68F;
-			productRefGroup = B4CB17B22484C6FC007AC68F /* Products */;
+			mainGroup = B402C8772486239900321D13;
+			productRefGroup = B402C8822486239900321D13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B4CB17B02484C6FC007AC68F /* CreditCardViewSwift */,
+				B402C8802486239900321D13 /* CreditCardViewSwift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B4CB17AF2484C6FC007AC68F /* Resources */ = {
+		B402C87F2486239900321D13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B402C82D24852E8000321D13 /* CreditCardViewSwift.xib in Resources */,
+				B402C890248623D600321D13 /* CreditCardViewSwift.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BF06DFA7CF7019F2C3C41BFD /* [CP] Check Pods Manifest.lock */ = {
+		40EC777393BDBB21DABF6EC7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,21 +203,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B4CB17AD2484C6FC007AC68F /* Sources */ = {
+		B402C87D2486239900321D13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B402C83024852E8000321D13 /* Validator.swift in Sources */,
-				B402C82E24852E8000321D13 /* SkyFloatingLabel+Ext.swift in Sources */,
-				B402C82F24852E8000321D13 /* Enums.swift in Sources */,
-				B402C82C24852E8000321D13 /* CreditCardViewSwift.swift in Sources */,
+				B402C8962486289800321D13 /* SkyFloatingLabel+Ext.swift in Sources */,
+				B402C8942486289800321D13 /* Validator.swift in Sources */,
+				B402C8952486289800321D13 /* Enums.swift in Sources */,
+				B402C88D248623AD00321D13 /* CreditCardViewSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B4CB17B72484C6FC007AC68F /* Debug */ = {
+		B402C8872486239900321D13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +280,7 @@
 			};
 			name = Debug;
 		};
-		B4CB17B82484C6FC007AC68F /* Release */ = {
+		B402C8882486239900321D13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,9 +337,9 @@
 			};
 			name = Release;
 		};
-		B4CB17BA2484C6FC007AC68F /* Debug */ = {
+		B402C88A2486239900321D13 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB780878F042B293A202F161 /* Pods-CreditCardViewSwift.debug.xcconfig */;
+			baseConfigurationReference = ECD55A68B6623E7E20ABB459 /* Pods-CreditCardViewSwift.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -363,9 +364,9 @@
 			};
 			name = Debug;
 		};
-		B4CB17BB2484C6FC007AC68F /* Release */ = {
+		B402C88B2486239900321D13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7B096EBB2761881A3843FA5 /* Pods-CreditCardViewSwift.release.xcconfig */;
+			baseConfigurationReference = 7497A69790E584CB21EBC636 /* Pods-CreditCardViewSwift.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,25 +393,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B4CB17AB2484C6FC007AC68F /* Build configuration list for PBXProject "CreditCardViewSwift" */ = {
+		B402C87B2486239900321D13 /* Build configuration list for PBXProject "CreditCardViewSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4CB17B72484C6FC007AC68F /* Debug */,
-				B4CB17B82484C6FC007AC68F /* Release */,
+				B402C8872486239900321D13 /* Debug */,
+				B402C8882486239900321D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4CB17B92484C6FC007AC68F /* Build configuration list for PBXNativeTarget "CreditCardViewSwift" */ = {
+		B402C8892486239900321D13 /* Build configuration list for PBXNativeTarget "CreditCardViewSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4CB17BA2484C6FC007AC68F /* Debug */,
-				B4CB17BB2484C6FC007AC68F /* Release */,
+				B402C88A2486239900321D13 /* Debug */,
+				B402C88B2486239900321D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B4CB17A82484C6FC007AC68F /* Project object */;
+	rootObject = B402C8782486239900321D13 /* Project object */;
 }

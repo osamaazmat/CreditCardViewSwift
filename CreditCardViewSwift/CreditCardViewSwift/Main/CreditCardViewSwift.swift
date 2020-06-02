@@ -1,8 +1,8 @@
 //
 //  CreditCardViewSwift.swift
-//  TestCustomViewNib
+//  CreditCardViewSwift
 //
-//  Created by Osama on 31/05/2020.
+//  Created by Osama on 02/06/2020.
 //  Copyright © 2020 Osama Azmat Khan. All rights reserved.
 //
 
@@ -15,7 +15,7 @@ public protocol CreditCardViewSwiftDelegate {
 
 @IBDesignable public class CreditCardViewSwift: UIView {
     
-    var view: UIView!   
+    var view: UIView!
     
     @IBOutlet weak var nameOnCardTextField: SkyFloatingLabelTextField!
     @IBOutlet weak var cardNumberTextField: SkyFloatingLabelTextField!
