@@ -57,11 +57,6 @@ public protocol CreditCardViewSwiftDelegate {
     
     public var delegate: CreditCardViewSwiftDelegate?
     
-    var frameworkBundle:Bundle? {
-        let bundleId = "com.framework.bundleId"
-        return Bundle(identifier: bundleId)
-    }
-    
     func xibSetup() {
         view = loadViewFromNib()
         view.frame = bounds
@@ -81,7 +76,8 @@ public protocol CreditCardViewSwiftDelegate {
     }
     
     func loadViewFromNib() -> UIView {
-        let nib = UINib(nibName: "CreditCardViewSwift", bundle: frameworkBundle)
+        let bundle = Bundle(for: type(of: self))
+        let nib = UINib(nibName: "CreditCardViewSwift", bundle: bundle)
         let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
         
         return view

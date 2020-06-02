@@ -10,10 +10,10 @@
 		AE19FAF144186CB59C1F6611 /* Pods_CreditCardViewSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8352DA407159681814F83E03 /* Pods_CreditCardViewSwift.framework */; };
 		B402C8862486239900321D13 /* CreditCardViewSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B402C8842486239900321D13 /* CreditCardViewSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B402C88D248623AD00321D13 /* CreditCardViewSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C88C248623AD00321D13 /* CreditCardViewSwift.swift */; };
-		B402C890248623D600321D13 /* CreditCardViewSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = B402C88F248623D600321D13 /* CreditCardViewSwift.xib */; };
 		B402C8942486289800321D13 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C8912486289800321D13 /* Validator.swift */; };
 		B402C8952486289800321D13 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C8922486289800321D13 /* Enums.swift */; };
 		B402C8962486289800321D13 /* SkyFloatingLabel+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402C8932486289800321D13 /* SkyFloatingLabel+Ext.swift */; };
+		B402C897248639A900321D13 /* CreditCardViewSwift.xib in Resources */ = {isa = PBXBuildFile; fileRef = B402C88F248623D600321D13 /* CreditCardViewSwift.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,7 +96,6 @@
 				ECD55A68B6623E7E20ABB459 /* Pods-CreditCardViewSwift.debug.xcconfig */,
 				7497A69790E584CB21EBC636 /* Pods-CreditCardViewSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B402C890248623D600321D13 /* CreditCardViewSwift.xib in Resources */,
+				B402C897248639A900321D13 /* CreditCardViewSwift.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
