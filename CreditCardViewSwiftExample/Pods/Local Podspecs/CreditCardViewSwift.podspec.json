@@ -1,6 +1,6 @@
 {
   "name": "CreditCardViewSwift",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "This is a framework that lets you add a fully functional credit/debit card view",
   "description": "A fully functional Credit/Debit card view that returns validated card data for use. Import this framework in your code, add it as a subview and you are ready to go!",
   "homepage": "https://github.com/osamaazmat/CreditCardView",
@@ -15,7 +15,7 @@
   },
   "source": {
     "git": "https://github.com/osamaazmat/CreditCardViewSwift.git",
-    "tag": "1.0.0"
+    "tag": "1.0.2"
   },
   "source_files": "CreditCardViewSwift/**/*",
   "exclude_files": [

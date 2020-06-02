@@ -76,7 +76,8 @@ public protocol CreditCardViewSwiftDelegate {
     }
     
     func loadViewFromNib() -> UIView {
-        let bundle = Bundle(for: type(of: self))
+        
+        let bundle = Bundle(for: self.classForCoder)
         let nib = UINib(nibName: "CreditCardViewSwift", bundle: bundle)
         let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
         
