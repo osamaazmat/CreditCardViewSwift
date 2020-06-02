@@ -37,6 +37,9 @@
                                     <color key="value" cocoaTouchSystemColor="darkTextColor"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="6FA-1N-4IV"/>
+                            </connections>
                         </view>
                         <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aMk-Zn-zDO" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
                             <rect key="frame" x="8" y="66" width="398" height="50"/>
@@ -52,6 +55,9 @@
                                     <color key="value" cocoaTouchSystemColor="darkTextColor"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="biZ-SH-qrt"/>
+                            </connections>
                         </view>
                         <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AIF-I4-OfQ" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
                             <rect key="frame" x="8" y="124" width="183" height="50"/>
@@ -67,6 +73,9 @@
                                     <color key="value" cocoaTouchSystemColor="darkTextColor"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="J7g-mU-dZi"/>
+                            </connections>
                         </view>
                         <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2V6-jK-M6c" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
                             <rect key="frame" x="223" y="124" width="183" height="50"/>
@@ -82,6 +91,9 @@
                                     <color key="value" cocoaTouchSystemColor="darkTextColor"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="RDD-b3-dEp"/>
+                            </connections>
                         </view>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -69,6 +69,9 @@ public protocol CreditCardViewSwiftDelegate {
         cardExpirationTextField.keyboardType = .numberPad
         cvvTextField.keyboardType = .numberPad
         
+        cardNumberTextField.delegate = self
+        cardExpirationTextField.delegate = self
+        
         nameOnCardTextField.addTarget(self, action: #selector(self.textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
         cardNumberTextField.addTarget(self, action: #selector(self.textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
         cardExpirationTextField.addTarget(self, action: #selector(self.textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
