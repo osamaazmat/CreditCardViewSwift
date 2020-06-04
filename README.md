@@ -1,7 +1,9 @@
 # CreditCardViewSwift
 This is a fully functional Card View that provides validated card data which is ready to use. Supports Credit, Debit, Master Card Etc.
 
-<div style="align:center"><img src="https://github.com/osamaazmat/CreditCardViewSwift/blob/master/Credit-Card-View-Swift.gif" /></div>
+<p align="center">
+  <img src="https://github.com/osamaazmat/CreditCardViewSwift/blob/master/Credit-Card-View-Swift.gif" /><
+</p>
 
 ## Main features
 
