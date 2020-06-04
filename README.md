@@ -2,7 +2,7 @@
 This is a fully functional Card View that provides validated card data which is ready to use. Supports Credit, Debit, Master Card Etc.
 
 <p align="center">
-  <img src="https://github.com/osamaazmat/CreditCardViewSwift/blob/master/Credit-Card-View-Swift.gif" /><
+  <img src="https://github.com/osamaazmat/CreditCardViewSwift/blob/master/Credit-Card-View-Swift.gif" />
 </p>
 
 ## Main features
